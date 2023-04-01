@@ -16,6 +16,10 @@ body {
 
 .nav-logo {
   @include flex;
+  a {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
   &:hover {
     opacity: 0.9;
   }
@@ -50,6 +54,8 @@ body {
   input {
     width: 89px;
     height: 39px;
+    margin-top: 20px;
+    margin-bottom: 21px;
     background: #1f2e35;
     border: 1px solid #070707;
     border-radius: 8px;
@@ -75,7 +81,6 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  border: 2px red solid;
 }
 
 .item1 {
