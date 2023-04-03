@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     margin-bottom: 150px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       background-color: #f7f8fa;
       margin-bottom: 80px;
 
@@ -146,11 +146,11 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       max-width: 359px;
       margin: 0 auto;
     }
-    @media (max-width: 411px) {
+    @media (max-width: 320px) {
       max-width: 280px;
       margin: 0 auto;
     }
@@ -159,7 +159,7 @@ body {
   .item1 {
     margin-bottom: 120px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 70px;
       .flex-box2 {
         order: -1;
@@ -331,7 +331,7 @@ body {
   .item2 {
     margin-bottom: 120px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 80px;
 
       .block:not(.third) {
@@ -379,7 +379,7 @@ body {
 
   .item3 {
     margin-bottom: 120px;
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 80px;
 
       .Most-Popular {
@@ -455,7 +455,7 @@ body {
   .item4 {
     margin-bottom: 120px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 80px;
 
       .Trusted-Brands {
@@ -519,7 +519,7 @@ body {
   .item5 {
     margin-bottom: 120px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 80px;
 
       .New-Comer-Tools {
@@ -605,7 +605,7 @@ body {
   .item6 {
     margin-bottom: 154px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 80px;
 
       .Testimonial {
@@ -703,7 +703,7 @@ body {
   .item7 {
     margin-bottom: 120px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 146px;
 
       .Subscribe {
@@ -792,7 +792,7 @@ body {
   .item8 {
     margin-bottom: 120px;
 
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-bottom: 32px;
       .box:not(.fourth) {
         margin-bottom: 32px;
