@@ -137,7 +137,7 @@ body .header {
   margin: 0 auto;
   margin-bottom: 150px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .header {
     background-color: #f7f8fa;
     margin-bottom: 80px;
@@ -301,13 +301,13 @@ body .container {
   max-width: 1140px;
   margin: 0 auto;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .container {
     max-width: 359px;
     margin: 0 auto;
   }
 }
-@media (max-width: 411px) {
+@media (max-width: 320px) {
   body .container {
     max-width: 280px;
     margin: 0 auto;
@@ -316,7 +316,7 @@ body .container {
 body .item1 {
   margin-bottom: 120px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item1 {
     margin-bottom: 70px;
   }
@@ -528,7 +528,7 @@ body .item1 .wrapper1 .flex-box2 .Icon {
 body .item2 {
   margin-bottom: 120px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item2 {
     margin-bottom: 80px;
   }
@@ -580,7 +580,7 @@ body .block .texttitle {
 body .item3 {
   margin-bottom: 120px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item3 {
     margin-bottom: 80px;
   }
@@ -670,7 +670,7 @@ body .wrapper3 .box .img .Icon {
 body .item4 {
   margin-bottom: 120px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item4 {
     margin-bottom: 80px;
   }
@@ -735,7 +735,7 @@ body .wrapper4 .box .texttitle {
 body .item5 {
   margin-bottom: 120px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item5 {
     margin-bottom: 80px;
   }
@@ -833,7 +833,7 @@ body .wrapper5 .box .texttitle {
 body .item6 {
   margin-bottom: 154px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item6 {
     margin-bottom: 80px;
   }
@@ -935,7 +935,7 @@ body .wrapper6 .box .icon {
 body .item7 {
   margin-bottom: 120px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item7 {
     margin-bottom: 146px;
   }
@@ -1022,7 +1022,7 @@ body .wrapper7 .btn-primary #btn:hover {
 body .item8 {
   margin-bottom: 120px;
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
   body .item8 {
     margin-bottom: 32px;
   }
