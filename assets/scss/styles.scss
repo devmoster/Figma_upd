@@ -10,6 +10,26 @@ body {
     margin: 0 auto;
     margin-bottom: 150px;
 
+    @media (max-width: 768px) {
+      max-width: 661px;
+      margin-bottom: 119px;
+
+      .nav-text {
+        a {
+          font-size: 13px;
+          line-height: 26px;
+        }
+      }
+      .btn-Login {
+        input {
+          width: 70px;
+          height: 31px;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+    }
+
     @media (max-width: 414px) {
       background-color: #f7f8fa;
       margin-bottom: 80px;
@@ -64,25 +84,6 @@ body {
           width: 19px;
           height: 16px;
           margin-right: 26px;
-        }
-      }
-    }
-    @media (max-width: 768px) {
-      max-width: 661px;
-      margin-bottom: 119px;
-
-      .nav-text {
-        a {
-          font-size: 13px;
-          line-height: 26px;
-        }
-      }
-      .btn-Login {
-        input {
-          width: 70px;
-          height: 31px;
-          font-size: 14px;
-          line-height: 16px;
         }
       }
     }
@@ -165,6 +166,10 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 
+    @media (max-width: 768px) {
+      max-width: 608px;
+      margin: 0 auto;
+    }
     @media (max-width: 414px) {
       max-width: 364px;
       margin: 0 auto;
@@ -173,17 +178,14 @@ body {
       max-width: 280px;
       margin: 0 auto;
     }
-    @media (max-width: 768px) {
-      max-width: 608px;
-      margin: 0 auto;
-    }
   }
 
   .item1 {
     margin-bottom: 120px;
 
-    @media (max-width: 320px) {
-      margin-bottom: 62px;
+    @media (max-width: 768px) {
+      margin-bottom: 55px;
+
       .wrapper1 {
         .flex-box2 {
           order: -1;
@@ -191,15 +193,15 @@ body {
         }
         .flex-box1 {
           .i1fb1text1 {
-            margin-bottom: 6px;
-            font-size: 32px;
-            line-height: 48px;
+            margin-bottom: 10px;
+            font-size: 36px;
+            line-height: 50px;
           }
           .i1fb1text2 {
             margin-bottom: 19px;
           }
           .explore-btn {
-            margin-bottom: 26px;
+            margin-bottom: 27px;
           }
           .img-text {
             #png-1 {
@@ -260,8 +262,8 @@ body {
       }
     }
 
-    @media (max-width: 768px) {
-      margin-bottom: 55px;
+    @media (max-width: 320px) {
+      margin-bottom: 62px;
       .wrapper1 {
         .flex-box2 {
           order: -1;
@@ -269,15 +271,15 @@ body {
         }
         .flex-box1 {
           .i1fb1text1 {
-            margin-bottom: 10px;
-            font-size: 36px;
-            line-height: 50px;
+            margin-bottom: 6px;
+            font-size: 32px;
+            line-height: 48px;
           }
           .i1fb1text2 {
             margin-bottom: 19px;
           }
           .explore-btn {
-            margin-bottom: 27px;
+            margin-bottom: 26px;
           }
           .img-text {
             #png-1 {
@@ -402,6 +404,14 @@ body {
   .item2 {
     margin-bottom: 120px;
 
+    @media (max-width: 768px) {
+      margin-bottom: 62px;
+
+      .block:not(.third) {
+        margin-bottom: 20px;
+      }
+    }
+
     @media (max-width: 414px) {
       margin-bottom: 80px;
 
@@ -415,13 +425,6 @@ body {
 
       .block:not(.third) {
         margin-bottom: 12px;
-      }
-    }
-    @media (max-width: 768px) {
-      margin-bottom: 62px;
-
-      .block:not(.third) {
-        margin-bottom: 20px;
       }
     }
   }
@@ -465,6 +468,18 @@ body {
 
   .item3 {
     margin-bottom: 120px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 80px;
+
+      .Most-Popular {
+        margin-bottom: 60px;
+      }
+      .box:not(.third) {
+        margin-bottom: 36px;
+      }
+    }
+
     @media (max-width: 414px) {
       margin-bottom: 80px;
 
@@ -501,17 +516,6 @@ body {
         .box:not(.third) {
           margin-bottom: 28px;
         }
-      }
-    }
-
-    @media (max-width: 768px) {
-      margin-bottom: 80px;
-
-      .Most-Popular {
-        margin-bottom: 60px;
-      }
-      .box:not(.third) {
-        margin-bottom: 36px;
       }
     }
   }
@@ -898,10 +902,13 @@ body {
       .wrapper7 {
         .btn-primary {
           #placeholder {
+            width: 250px;
+            height: 20px;
             background: inherit;
             border: 1px solid #000000;
             margin-right: 0px;
             margin-bottom: 24px;
+            padding: 16px 11px;
           }
         }
       }
@@ -915,6 +922,8 @@ body {
       .wrapper7 {
         .btn-primary {
           #placeholder {
+            width: 200px;
+            height: 16px;
             background: inherit;
             border: 1px solid #000000;
             margin-right: 0px;

@@ -137,6 +137,22 @@ body .header {
   margin: 0 auto;
   margin-bottom: 150px;
 }
+@media (max-width: 768px) {
+  body .header {
+    max-width: 661px;
+    margin-bottom: 119px;
+  }
+  body .header .nav-text a {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  body .header .btn-Login input {
+    width: 70px;
+    height: 31px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 @media (max-width: 414px) {
   body .header {
     background-color: #f7f8fa;
@@ -201,22 +217,6 @@ body .header {
     width: 19px;
     height: 16px;
     margin-right: 26px;
-  }
-}
-@media (max-width: 768px) {
-  body .header {
-    max-width: 661px;
-    margin-bottom: 119px;
-  }
-  body .header .nav-text a {
-    font-size: 13px;
-    line-height: 26px;
-  }
-  body .header .btn-Login input {
-    width: 70px;
-    height: 31px;
-    font-size: 14px;
-    line-height: 16px;
   }
 }
 body .nav-bar {
@@ -317,6 +317,12 @@ body .container {
   max-width: 1140px;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  body .container {
+    max-width: 608px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 414px) {
   body .container {
     max-width: 364px;
@@ -329,18 +335,12 @@ body .container {
     margin: 0 auto;
   }
 }
-@media (max-width: 768px) {
-  body .container {
-    max-width: 608px;
-    margin: 0 auto;
-  }
-}
 body .item1 {
   margin-bottom: 120px;
 }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   body .item1 {
-    margin-bottom: 62px;
+    margin-bottom: 55px;
   }
   body .item1 .wrapper1 .flex-box2 {
     -webkit-box-ordinal-group: 0;
@@ -349,15 +349,15 @@ body .item1 {
     margin-bottom: 25px;
   }
   body .item1 .wrapper1 .flex-box1 .i1fb1text1 {
-    margin-bottom: 6px;
-    font-size: 32px;
-    line-height: 48px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 50px;
   }
   body .item1 .wrapper1 .flex-box1 .i1fb1text2 {
     margin-bottom: 19px;
   }
   body .item1 .wrapper1 .flex-box1 .explore-btn {
-    margin-bottom: 26px;
+    margin-bottom: 27px;
   }
   body .item1 .wrapper1 .flex-box1 .img-text #png-1 {
     border: none;
@@ -410,9 +410,9 @@ body .item1 {
     height: 15px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   body .item1 {
-    margin-bottom: 55px;
+    margin-bottom: 62px;
   }
   body .item1 .wrapper1 .flex-box2 {
     -webkit-box-ordinal-group: 0;
@@ -421,15 +421,15 @@ body .item1 {
     margin-bottom: 25px;
   }
   body .item1 .wrapper1 .flex-box1 .i1fb1text1 {
-    margin-bottom: 10px;
-    font-size: 36px;
-    line-height: 50px;
+    margin-bottom: 6px;
+    font-size: 32px;
+    line-height: 48px;
   }
   body .item1 .wrapper1 .flex-box1 .i1fb1text2 {
     margin-bottom: 19px;
   }
   body .item1 .wrapper1 .flex-box1 .explore-btn {
-    margin-bottom: 27px;
+    margin-bottom: 26px;
   }
   body .item1 .wrapper1 .flex-box1 .img-text #png-1 {
     border: none;
@@ -587,6 +587,14 @@ body .wrapper1 .flex-box2 .Icon {
 body .item2 {
   margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+  body .item2 {
+    margin-bottom: 62px;
+  }
+  body .item2 .block:not(.third) {
+    margin-bottom: 20px;
+  }
+}
 @media (max-width: 414px) {
   body .item2 {
     margin-bottom: 80px;
@@ -601,14 +609,6 @@ body .item2 {
   }
   body .item2 .block:not(.third) {
     margin-bottom: 12px;
-  }
-}
-@media (max-width: 768px) {
-  body .item2 {
-    margin-bottom: 62px;
-  }
-  body .item2 .block:not(.third) {
-    margin-bottom: 20px;
   }
 }
 body .wrapper2 {
@@ -655,6 +655,17 @@ body .wrapper2 .block .texttitle {
 body .item3 {
   margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+  body .item3 {
+    margin-bottom: 80px;
+  }
+  body .item3 .Most-Popular {
+    margin-bottom: 60px;
+  }
+  body .item3 .box:not(.third) {
+    margin-bottom: 36px;
+  }
+}
 @media (max-width: 414px) {
   body .item3 {
     margin-bottom: 80px;
@@ -695,17 +706,6 @@ body .item3 {
   }
   body .item3 .wrapper3 .box:not(.third) {
     margin-bottom: 28px;
-  }
-}
-@media (max-width: 768px) {
-  body .item3 {
-    margin-bottom: 80px;
-  }
-  body .item3 .Most-Popular {
-    margin-bottom: 60px;
-  }
-  body .item3 .box:not(.third) {
-    margin-bottom: 36px;
   }
 }
 body .Most-Popular {
@@ -1116,10 +1116,13 @@ body .item7 {
     margin-bottom: 26px;
   }
   body .item7 .wrapper7 .btn-primary #placeholder {
+    width: 250px;
+    height: 20px;
     background: inherit;
     border: 1px solid #000000;
     margin-right: 0px;
     margin-bottom: 24px;
+    padding: 16px 11px;
   }
 }
 @media (max-width: 320px) {
@@ -1130,6 +1133,8 @@ body .item7 {
     margin-bottom: 20px;
   }
   body .item7 .wrapper7 .btn-primary #placeholder {
+    width: 200px;
+    height: 16px;
     background: inherit;
     border: 1px solid #000000;
     margin-right: 0px;
